@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f84366-b969-4281-880e-ae1aaa9262dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modelgen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models.gotpl" afterDir="false" />
+    <list default="true" id="50f84366-b969-4281-880e-ae1aaa9262dd" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/mgen/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.gotpl" beforeDir="false" afterPath="$PROJECT_DIR$/mgen/models.gotpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/github.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -60,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\poriy\go\src\modelgen" />
       <recent name="C:\Users\poriy\go\src\modelgen\vendor\github.com" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -68,7 +67,7 @@
       <recent name="$PROJECT_DIR$/CodeGen" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build modelgen (1)">
+  <component name="RunManager" selected="Go Test.models_test.go">
     <configuration name="go build modelgen (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="modelgen" />
       <working_directory value="$PROJECT_DIR$" />
@@ -88,12 +87,24 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="models_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="modelgen" />
+      <working_directory value="$PROJECT_DIR$/mgen" />
+      <kind value="FILE" />
+      <package value="modelgen" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/mgen/models_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build modelgen" />
       <item itemvalue="Go Build.go build modelgen (1)" />
+      <item itemvalue="Go Test.models_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.models_test.go" />
         <item itemvalue="Go Build.go build modelgen (1)" />
       </list>
     </recent_temporary>
@@ -115,5 +126,16 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mgen/models.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
