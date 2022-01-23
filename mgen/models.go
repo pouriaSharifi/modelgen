@@ -178,7 +178,7 @@ func (m *Plugin) MutateConfig(cfg *config.Config) error {
 				if ValidateDirective != nil {
 					arg := ValidateDirective.Arguments.ForName("Validate")
 					if arg != nil {
-						ValidateType = fmt.Sprintf("gorm:\"%s\"", arg.Value.Raw)
+						ValidateType = fmt.Sprintf("validate:\"%s\"", arg.Value.Raw)
 					}
 				}
 
