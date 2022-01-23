@@ -43,6 +43,7 @@ type Field struct {
 	Type        types.Type
 	Tag         string
 	Gorm        string // this is what you are looking for
+	Validate    string // this is what you are looking for
 }
 
 type Enum struct {
@@ -172,6 +173,14 @@ func (m *Plugin) MutateConfig(cfg *config.Config) error {
 						gormType = fmt.Sprintf("gorm:\"%s\"", arg.Value.Raw)
 					}
 				}
+				ValidateType := ""
+				ValidateDirective := field.Directives.ForName("ValidateMeta")
+				if ValidateDirective != nil {
+					arg := ValidateDirective.Arguments.ForName("Validate")
+					if arg != nil {
+						ValidateType = fmt.Sprintf("gorm:\"%s\"", arg.Value.Raw)
+					}
+				}
 
 				it.Fields = append(it.Fields, &Field{
 					Name:        name,
@@ -179,6 +188,7 @@ func (m *Plugin) MutateConfig(cfg *config.Config) error {
 					Description: field.Description,
 					Tag:         `json:"` + field.Name + `"`,
 					Gorm:        gormType,
+					Validate:    ValidateType,
 				})
 
 			}

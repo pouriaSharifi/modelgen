@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f84366-b969-4281-880e-ae1aaa9262dd" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/mgen/models.go" afterDir="false" />
+    <list default="true" id="50f84366-b969-4281-880e-ae1aaa9262dd" name="Default Changelist" comment="model gorm generator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.gotpl" beforeDir="false" afterPath="$PROJECT_DIR$/mgen/models.gotpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgen/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/mgen/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgen/models.gotpl" beforeDir="false" afterPath="$PROJECT_DIR$/mgen/models.gotpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,19 +121,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="model gorm generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="model gorm generator" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/mgen/models.go</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
