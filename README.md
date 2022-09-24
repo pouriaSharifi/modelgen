@@ -27,3 +27,14 @@ type User{
     DeletedAt:DeletedAt
 }
 ```
+
+Install and use in project
+
+``` 
+cmd:
+
+go install github.com/pouriaSharifi/modelgen-gorm@v1.0.0
+
+modelgen-gorm generate
+
+```
