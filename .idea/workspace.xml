@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f84366-b969-4281-880e-ae1aaa9262dd" name="Default Changelist" comment="Validate">
+      <change afterPath="$PROJECT_DIR$/gqlgen.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/model/models_gen.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgenV2/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgenV2/models.gotpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema/input.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema/pageResult.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema/schema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema/type.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/Bool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/CreatedAt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/DeletedAt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/Int.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/Text.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/Time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/UpdatedAt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/Upload.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mgen/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/mgen/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +75,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,7 +88,17 @@
       <recent name="$PROJECT_DIR$/CodeGen" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.models_test.go">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="modelgen" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="generate" />
+      <kind value="FILE" />
+      <package value="modelgen" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build modelgen (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="modelgen" />
       <working_directory value="$PROJECT_DIR$" />
@@ -102,12 +131,12 @@
     <list>
       <item itemvalue="Go Build.go build modelgen" />
       <item itemvalue="Go Build.go build modelgen (1)" />
+      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Test.models_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.models_test.go" />
-        <item itemvalue="Go Build.go build modelgen (1)" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.models_test.go" />
         <item itemvalue="Go Build.go build modelgen (1)" />
       </list>
@@ -116,6 +145,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -136,5 +175,41 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mgenV2/models.go</url>
+          <line>364</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mgenV2/models.go</url>
+          <line>300</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../pkg/mod/github.com/99designs/gqlgen@v0.17.20/api/option.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../pkg/mod/github.com/99designs/gqlgen@v0.17.20/plugin/modelgen/models.go</url>
+          <line>77</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mgenV2/models.go</url>
+          <line>79</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../pkg/mod/github.com/99designs/gqlgen@v0.17.20/api/generate.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -5,7 +5,7 @@ import (
 	"github.com/99designs/gqlgen/api"
 	"github.com/99designs/gqlgen/codegen/config"
 	"log"
-	"modelgen/mgen"
+	"modelgen/mgenV2"
 
 	"os"
 
@@ -26,12 +26,11 @@ func main() {
 				}
 
 				log.Println("generating schema...")
-				err = api.Generate(gqlgenConf, api.AddPlugin(mgen.NewCreate()))
+				err = api.Generate(gqlgenConf, api.ReplacePlugin(mgenV2.New()))
 				log.Println("schema generation done...")
 
 				if err != nil {
 					fmt.Println(err)
-					fmt.Println("po")
 					log.Panicln(err.Error())
 					os.Exit(3)
 				}
