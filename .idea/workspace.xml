@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f84366-b969-4281-880e-ae1aaa9262dd" name="Default Changelist" comment="Validate">
-      <change afterPath="$PROJECT_DIR$/gqlgen.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/model/models_gen.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mgenV2/models.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mgenV2/models.gotpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/input.graphqls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/pageResult.graphqls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/schema.graphqls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/type.graphqls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/Bool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/CreatedAt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/DeletedAt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/Int.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/Text.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/Time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/UpdatedAt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/Upload.go" afterDir="false" />
+    <list default="true" id="50f84366-b969-4281-880e-ae1aaa9262dd" name="Default Changelist" comment="modelgen update">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,28 +40,30 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1tdOFZzGscCxM4G9weCYyqfwtBT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "C:/Users/poriy/go/src/hamrahkonkur_backend",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\poriy\go\src\modelgen" />
@@ -166,15 +153,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="model gorm generator" />
     <MESSAGE value="Validate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validate" />
+    <MESSAGE value="modelgen update" />
+    <option name="LAST_COMMIT_MESSAGE" value="modelgen update" />
   </component>
   <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
