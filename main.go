@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/99designs/gqlgen/api"
 	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/pouriaSharifi/modelgen/mgenV2"
 	"log"
-	"modelgen/mgenV2"
 
 	"os"
 

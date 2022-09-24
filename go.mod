@@ -1,4 +1,4 @@
-module modelgen
+module github.com/pouriaSharifi/modelgen
 
 go 1.16
 
