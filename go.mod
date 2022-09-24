@@ -1,4 +1,4 @@
-module github.com/pouriaSharifi/modelgen
+module github.com/pouriaSharifi/modelgen-gorm
 
 go 1.16
 
